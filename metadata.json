@@ -1,6 +1,6 @@
 {
-  "name": "Lips & Sips Premium POS",
-  "description": "Advanced offline-first nightclub and lounge POS system with PIN access, tab management, room booking, and real-time inventory control.",
+  "name": "August",
+  "description": "A powerful technology showcase featuring interactive 3D elements.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
