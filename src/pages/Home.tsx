@@ -135,13 +135,6 @@ export default function Home() {
                   </div>
                   <p className="text-sm text-zinc-300 font-light">Local-first data synchronization that thrives on intermittent 3G networks.</p>
                </div>
-               <div>
-                  <div className="flex items-center gap-3 text-white mb-3">
-                     <TerminalSquare className="text-maasai" size={20} />
-                     <span className="font-display font-medium tracking-wide">M-Pesa Native</span>
-                  </div>
-                  <p className="text-sm text-zinc-300 font-light">Direct Daraja API integration for STK push and C2B payment validation.</p>
-               </div>
             </div>
           </motion.div>
 
@@ -167,7 +160,7 @@ export default function Home() {
                      <div className="h-12 bg-zinc-800/50 rounded-sm" />
                   </div>
                   <div className="mt-auto h-12 bg-maasai flex items-center justify-center rounded-sm text-white font-bold tracking-widest text-sm uppercase">
-                     Pay with M-Pesa
+                     Checkout
                   </div>
                </div>
             </div>
@@ -223,7 +216,7 @@ export default function Home() {
             </h2>
             <p className="text-maasai uppercase tracking-widest text-sm font-bold mb-6">Founder & CEO</p>
             <p className="text-zinc-700 font-light leading-relaxed text-lg">
-              Leading the architectural vision of August Engineering. We exist to bridge the gap between world-class digital standards and the raw structural potential of the African technological ecosystem.
+              Leading the architectural vision of August Solutions. We exist to bridge the gap between world-class digital standards and the raw structural potential of the African technological ecosystem.
             </p>
           </motion.div>
         </div>

@@ -24,15 +24,7 @@ function Navbar({ onContactClick }: { onContactClick: () => void }) {
     <nav className="fixed top-0 left-0 w-full z-50 bg-obsidian/90 backdrop-blur-xl border-b border-zinc-900 top-nav">
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group text-white">
-          <motion.div 
-            whileHover={{ rotate: 90 }} 
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
-            <Hexagon size={28} strokeWidth={1.5} className="group-hover:fill-maasai transition-colors" />
-          </motion.div>
-          <div className="h-8 w-32 bg-zinc-800 rounded flex items-center justify-center border border-zinc-700 overflow-hidden">
-            <span className="text-[10px] text-zinc-500 uppercase tracking-widest">Logo Space</span>
-          </div>
+          <img src="/images/augustlogo.png" alt="AUGUST" className="h-8 object-contain" />
         </Link>
         
         {/* Desktop Nav */}
@@ -107,7 +99,7 @@ function Navbar({ onContactClick }: { onContactClick: () => void }) {
 function Footer({ onContactClick }: { onContactClick: () => void }) {
   return (
     <footer className="relative z-10 py-12 border-t border-zinc-200 text-center px-6">
-      <p className="text-zinc-900 text-sm tracking-widest uppercase mb-4 font-display font-medium">August Engineering © 2026</p>
+      <p className="text-zinc-900 text-sm tracking-widest uppercase mb-4 font-display font-medium">August Solutions © 2026</p>
       <div className="flex justify-center gap-6 text-zinc-600 text-sm uppercase tracking-widest font-bold">
         <a href="#" className="hover:text-maasai transition-colors">Privacy</a>
         <a href="#" className="hover:text-maasai transition-colors">Terms</a>
